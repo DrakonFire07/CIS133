@@ -1,0 +1,11 @@
+img{
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+}
