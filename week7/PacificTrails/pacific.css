@@ -21,6 +21,32 @@ nav {
 	text-align: center;
 }
 
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #002171;
+}
+
+nav a:link{
+    color: #002171;
+}
+
+nav a:visited{
+    color: #002171;
+}
+
+nav a:hover{
+    background-color: #1976D2;
+    color: #FFFFFF;
+}
 main { 
     padding-left: 2em;
     padding-right: 2em;
