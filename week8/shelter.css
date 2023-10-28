@@ -35,9 +35,6 @@ aside > img {
 
 main {
     grid-area: main;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: center;
 }
 
 footer {
@@ -72,4 +69,7 @@ p {
 .amigo_div > img {
     width: 180px;
     height: 180px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
 }
