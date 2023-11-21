@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+        width: 100px;
+        margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <table>
+    <form name="order" method="post" id="order">
+        <tr>
+            <td rowspan="5"><img src="images/shirt.jpg"></td>
+            <td style="font-style: italic; font-weight: bold; font-size: 40px;">Company Logo Shirt</td>
+        </tr>
+        <tr>
+            <td> <label for="colorselector">Color:</label>
+                <select  name="colorselector" id="colorselector">
+                    <option>Select Color</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="black">Black</option>
+                </select>
+                <label for="Quantity">Quantity:</label>
+                <input type="text" name="Quantity" id="Quantity">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Size">Size:</label>
+                <input type="radio" name="small" id="small" value="SM"> Small
+                <input type="radio" name="medium" id="medium" value="MD"> Medium
+                <input type="radio" name="large" id="large" value="LG"> Large
+            </td>
+        </tr>
+        <tr>
+            <td> <label for="logo">
+                <input type="checkbox" name="logo" id="logo"
+       value="yes"> Include Logo</label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Choose File"> No file chosen</td>
+        </tr>
+    </form>
+    </table>
+    <hr>
+    <table>
+        <form name="order2" method="post" id="order2">
+            <tr>
+                <td>
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                </td>
+                <td>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" name="address" id="address" placeholder="Street Address"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="city" id="city" placeholder="City"></td>
+                <td><input type="text" name="state" id="state" placeholder="Street"></td>
+                <td><input type="text" name="zip" id="zip" placeholder="ZIP"></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" id="email" placeholder="Email Address"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="phonenumber" id="phonenumber" placeholder="Phone Number"></td>
+            </tr>
+            <tr>
+                <td>Best Delivery Date: <input type="date" name="deliverydate" id="deliverydate"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="specialcomments" id="specialcomments" placeholder="Special Instructions"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
