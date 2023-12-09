@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change The Title</title>
+    <script>
+        changeTitle()
+        {
+            var strTitle = window.prompt('What do you want the title of the page to be?');
+            document.getElementById('pageTitle').innerText = strTitle;
+        }
+        changeName()
+        {
+            var strName = window.prompt('Who is your favorite celebrity?');
+            document.getElementById('pageName').innerText = strName;
+        }
+        changeColor()
+        {
+            var strColor = window.prompt('What color do you want the background to be?');
+            document.getElementById('pageColor').innerText = strColor;
+        }
+    </script>
     <style>
         body {
             background-color: lightgreen;
@@ -38,9 +55,9 @@
     <div id="celebrity">Mark Rober</div>
     <table>
         <tr>
-            <td><button>Change Title</button></td>
-            <td><button>Change Name</button></td>
-            <td><button>Change Color</button></td>
+            <td><button onclick="changeTitle()">Change Title</button></td>
+            <td><button onclick="changeName()">Change Name</button></td>
+            <td><button onclick="changeColor()">Change Color</button></td>
         </tr>
     </table>
 </body>
