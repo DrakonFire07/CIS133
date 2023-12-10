@@ -1,0 +1,17 @@
+nav{
+    text-align: center;
+}
+nav a { 
+    text-decoration: none; 
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none; 
+    margin: 0;
+    font-weight: bold;
+}
+nav li { 
+    width: 14.2em;
+}
