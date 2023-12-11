@@ -1,9 +1,20 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home-bor{
+    border: 3px solid red;
+    border-radius: 4px;
+}
+
 nav{
     text-align: center;
 }
+
 nav a { 
     text-decoration: none; 
 }
+
 nav ul{
     display: flex;
     flex-direction: row;
@@ -12,6 +23,24 @@ nav ul{
     margin: 0;
     font-weight: bold;
 }
+
 nav li { 
     width: 14.2em;
+}
+
+#prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#prices .pri-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 3px solid #ff0000;
+    border-radius: 4px;
+    margin: 15px 0;
 }
