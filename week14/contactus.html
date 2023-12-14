@@ -16,17 +16,34 @@
             <li><a href="contactus.html">Contact Us</a></li>
         </ul>
     </nav>
+    <section id="contact-box">
     <h1>Contact Us!</h1>
     <p>Questions? Call us anytime between 9 am - 10 pm PST, or send us an email. Also ask any employee walking around the park and they'll help you with anything you need!</p>
+    <br>
+    <hr>
     <br>
     <p>Phone Number: 1-(858)-629-1428 <br>
         Email: wildpark@gmail.com <br>
         Fill out this form to ask any questions about our park:
     </p>
-    <table>
+    
+    <table class="form-fillout">
         <form name="questions">
-        
+        <tr>
+            <td>Name: <input type="text" name="firstname" id="firstname" autofocus required tabindex="0" placeholder="Type your name"></td>
+        </tr>
+        <tr>
+            <td>Email: <input type="email" name="user-email" id="user-email" autofocus required tabindex="0" placeholder="Type your email"></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Comments: <input type="text" name="comments" id="comments" autofocus required tabindex="0" placeholder="Type your questions or concerns"></td>
+        </tr>
         </form>
     </table>
+</section>
 </body>
+<footer>
+    <h3><center>Copyright 2023 by Wild Park. All Rights Reserved.
+    </center></h3>
+</footer>
 </html>
