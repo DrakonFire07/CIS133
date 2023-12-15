@@ -124,5 +124,35 @@ table{
 
 #contact-box table, tr, td{
     text-align: left;
-    
+
+}
+
+footer{
+    color: white;
+}
+
+input {
+    width: 90%;
+}
+
+input[type=submit]{
+    width: 10%;
+}
+
+#rides{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+#rides .ride-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 25px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 3px solid #ff0000;
+    border-radius: 4px;
+    margin: 15px 0;
 }
